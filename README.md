@@ -1,0 +1,1 @@
+A personal resume and the LaTeX source code behind it. I want to fix a few items over time, including some spacing issues with the bulletpoints.
