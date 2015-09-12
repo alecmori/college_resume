@@ -107,12 +107,15 @@
 %Arg1 - Line
 \newcommand{\information}[1]{
 \noindent
-\fontspec[Path = Ubuntu/]{Ubuntu-Regular}\fontsize{11pt}{11pt}\selectfont
+\fontspec[Path = Ubuntu/]{Ubuntu-Light}\fontsize{11pt}{11pt}\selectfont
 \begin{minipage}[t]{.03\paperwidth}
 \hfill
 \end{minipage}
-\begin{minipage}[t]{.7\paperwidth}
-\textbullet \ #1
+\begin{minipage}[t]{.02\paperwidth}
+\textbullet
+\end{minipage}
+\begin{minipage}[t]{.68\paperwidth}
+#1
 \end{minipage}
 \begin{minipage}[t]{.15\paperwidth}
 \hfill
